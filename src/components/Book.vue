@@ -21,13 +21,10 @@
   export default {
     name: 'search',
     props: [
-      'bookData',
+      'bookData'
     ],
     data() {
-      return {
-        searchText: '',
-        library: [],
-      };
+      return {};
     },
   };
 </script>
