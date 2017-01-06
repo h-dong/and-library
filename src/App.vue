@@ -13,7 +13,7 @@ export default {
   name: 'app',
   components: {
     SiteHeader,
-    Search,
-  },
+    Search
+  }
 };
 </script>
