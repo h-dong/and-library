@@ -10,7 +10,14 @@
           <p>{{bookData.BookSummary}}</p>
         </div>
         <div class="col-sm-12">
-          <span class="label label-success pull-right">Date added {{bookData.Timestamp}}</span>
+          <div class="row">
+            <div class="col-sm-6 pull-left">
+              <span class="label label-success">Date added {{bookData.Timestamp}}</span>
+            </div>
+            <div class="col-sm-6 pull-right">
+              <book-location :location="bookData.BookLocation"></book-location>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -18,17 +25,21 @@
 </template>
 
 <script>
+  import BookLocation from './BookLocation';
+
   export default {
-    name: 'search',
+    name: 'book',
+    components: {
+      BookLocation
+    },
     props: [
-      'bookData',
+      'bookData'
     ],
     data() {
       return {
-        searchText: '',
-        library: [],
+        bookHolder: 'hello world'
       };
-    },
+    }
   };
 </script>
 

@@ -60,6 +60,7 @@
         this.$http.get(googleSheetApi)
           .then((response) => {
             this.library = this.convertDataArray(response.body);
+            console.log(this.library);
           });
       },
       convertDataArray(json) {
@@ -76,7 +77,8 @@
               const currentHeading = headings[cellData.gs$cell.col - 1];
               tempItem[currentHeading] = cellData.content.$t;
             }
-            if (cellData.gs$cell.col === '5' && cellData.gs$cell.row !== '1') {
+            if (cellData.gs$cell.col === '6' && cellData.gs$cell.row !== '1') {
+              tempItem.BookRow = cellData.gs$cell.row;
               results.push(tempItem);
               tempItem = {};
             }
