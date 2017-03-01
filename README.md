@@ -2,6 +2,8 @@
 
 > A web application to keep track of all the books in the library.
 
+[View demo](http://haodong.io/and-library/)
+
 ## Build Setup
 
 ``` bash
