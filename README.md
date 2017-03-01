@@ -1,6 +1,6 @@
-# and-library
+# AND Library
 
-> A web application to keep track of all the books in the library.
+> A web application to keep track of all the books in the ANDigital library.
 
 [View demo](http://haodong.io/and-library/)
 
