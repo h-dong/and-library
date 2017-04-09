@@ -1,11 +1,16 @@
 <template>
   <div class="page-header">
-    <h1><small>ANDlibrary</small></h1>
+    <h1><small>AND-library for</small> <img class="andigital-logo" src="../assets/ANDigital_logo.svg"/></h1>
     <a class="github" href="https://github.com/csukcc/and-library">GitHub</a>
   </div>
 </template>
 
 <style scoped>
+  .andigital-logo {
+    width: 100px;
+    margin-top: 10px;
+  }
+
   .github {
     position: relative;
     float: right;
