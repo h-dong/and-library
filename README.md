@@ -2,7 +2,7 @@
 
 > A web application to keep track of all the books in the ANDigital library.
 
-[View demo](http://haodong.io/and-library/)
+[View demo](https://h-dong.github.io/and-library/)
 
 ## Build Setup
 
