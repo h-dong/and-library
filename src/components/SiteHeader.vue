@@ -1,7 +1,7 @@
 <template>
   <div class="page-header">
     <h1><small>AND-library for</small> <img class="andigital-logo" src="../assets/ANDigital_logo.svg"/></h1>
-    <a class="github" href="https://github.com/csukcc/and-library">GitHub</a>
+    <a class="github" href="https://github.com/h-dong/and-library">GitHub</a>
   </div>
 </template>
 
