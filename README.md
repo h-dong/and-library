@@ -4,6 +4,8 @@
 
 [View demo](https://h-dong.github.io/and-library/)
 
+**Note: Currently broken**
+
 ## Build Setup
 
 ``` bash
